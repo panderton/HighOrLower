@@ -4,7 +4,6 @@
     <meta charset="utf-8" />
     <title>Higher Or Lower</title>
     <link rel="stylesheet" type="text/css" href="/HigherOrLower/bootstrap/css/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="/HigherOrLower/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="/HigherOrLower/css/custom.css" />
 </head>
 <body class="nav-md">

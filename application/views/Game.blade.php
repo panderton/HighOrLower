@@ -1,19 +1,16 @@
 @include('Template/Header')
-<div id="page-wrapper">
-    <div class="row">
-        <ul class="breadcrumb">
-            <li class="active"><i class="fa fa-home"></i></li>
-        </ul>
-    </div>
+<div id="page-wrapper" class="well">
     <div class="row">
         <div class="col-lg-12">
-            <h1 class="page-header"><i class="fa fa-gear"></i> Dashboard</h1>
+            <h1 class="page-header">Higher Or Lower!</h1>
         </div>
     </div>
     <div class="row">
-        <p>
-            AJHSBJASHBCJHB
-        </p>
+        <strong>{{ $Cards[0] }}</strong>
+        <button type="button" id="higher" class="btn btn-success">Higher</button>
+        <button type="button" id="lower" class="btn btn-danger">Lower</button>
+        <br />
+        <small>Ace is high!</small>        
     </div>
 </div>
 @include('Template/Footer')
